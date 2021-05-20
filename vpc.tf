@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/markseymour-training/network/google"
   version = "2.5.0"
   # insert required variables here
-  network_name = "buffett_net"
+  network_name = "buffettnet"
   project_id = var.project
   subnets = [
   {
